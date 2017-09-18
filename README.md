@@ -46,14 +46,14 @@ core-decorators aims to provide decorators that are fundamental to JavaScript it
 * [@suppressWarnings](#suppresswarnings)
 * [@enumerable](#enumerable)
 * [@override](#override)
-* [@debounce](#debounce) :no_entry_sign: DEPRECATED
-* [@throttle](#throttle) :no_entry_sign: DEPRECATED
+* [@debounce](#debounce) :no_entry_sign: 弃用
+* [@throttle](#throttle) :no_entry_sign: 弃用
 * [@time](#time)
 * [@profile](#profile)
 
 ##### For Classes
 * [@autobind](#autobind)
-* [@mixin](#mixin-alias-mixins) :no_entry_sign: DEPRECATED
+* [@mixin](#mixin-alias-mixins) :no_entry_sign: 弃用
 
 ## Helpers
 
@@ -192,7 +192,7 @@ person.facepalmHarder();
 //
 ```
 
-### @debounce :no_entry_sign: DEPRECATED
+### @debounce :no_entry_sign: 弃用
 
 Creates a new debounced function which will be invoked after `wait` milliseconds since the time it was invoked. Default timeout is 300 ms.
 
@@ -212,7 +212,7 @@ class Editor {
 }
 ```
 
-### @throttle :no_entry_sign: DEPRECATED
+### @throttle :no_entry_sign: 弃用
 
 Creates a new throttled function which will be invoked in every `wait` milliseconds. Default timeout is 300 ms.
 
@@ -386,7 +386,7 @@ editor.hugeBuffer;
 // createHugeBuffer() is not called again
 ```
 
-### @mixin (alias: @mixins) :no_entry_sign: DEPRECATED
+### @mixin (alias: @mixins) :no_entry_sign: 弃用
 
 Mixes in all property descriptors from the provided Plain Old JavaScript Objects (aka POJOs) as arguments. Mixins are applied in the order they are passed, but do **not** override descriptors already on the class, including those inherited traditionally.
 
